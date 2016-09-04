@@ -1,15 +1,21 @@
 
+https://www.meteor.com/tutorials/react/creating-an-app    DONE
+
+meteor create "appName"
 meteor npm install
 meteor
 
-https://www.meteor.com/tutorials/react/creating-an-app  DONE
+https://www.meteor.com/tutorials/react/components         DONE
 
-
-https://www.meteor.com/tutorials/react/components       DONE
+https://www.meteor.com/tutorials/react/collections        DONE
 
 meteor npm install --save react-addons-pure-render-mixin
 meteor add react-meteor-data
 meteor mongo
 db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
 
-https://www.meteor.com/tutorials/react/collections      DONE
+https://www.meteor.com/tutorials/react/forms-and-events   DONE
+https://www.meteor.com/tutorials/react/update-and-remove  DONE
+
+https://www.meteor.com/tutorials/react/running-on-mobile
+meteor install-sdk ios
