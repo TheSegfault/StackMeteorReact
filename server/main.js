@@ -1,11 +1,13 @@
-import {
-    Meteor
-} from 'meteor/meteor';
+  import {
+      Meteor
+  } from 'meteor/meteor';
 
-import {
-    Mongo
-} from 'meteor/mongo';
+  import {
+      Mongo
+  } from 'meteor/mongo';
 
-Meteor.startup(() => {
-    // code to run on server at startup
-});
+  import '../common/api/tasks.js';
+
+  Meteor.startup(() => {
+      // code to run on server at startup
+  });

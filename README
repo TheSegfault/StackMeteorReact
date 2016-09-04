@@ -1,6 +1,15 @@
-https://www.meteor.com/tutorials/react/creating-an-app  DONE
 
 meteor npm install
 meteor
 
+https://www.meteor.com/tutorials/react/creating-an-app  DONE
+
+
 https://www.meteor.com/tutorials/react/components       DONE
+
+meteor npm install --save react-addons-pure-render-mixin
+meteor add react-meteor-data
+meteor mongo
+db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
+
+https://www.meteor.com/tutorials/react/collections      DONE
